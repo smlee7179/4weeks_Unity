@@ -33,25 +33,25 @@ public class Stat : MonoBehaviour
     float moveZ = 0f;
     float moveX = 0f;
 
-    if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)){
-        moveZ += 1f;
-        run.Play("Run");
-    }
+    // if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)){
+    //     moveZ += 1f;
+    //     run.Play("Run");
+    // }
 
-    if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)){
-        moveZ -= 1f;
-        run.Play("Run");
-    }
+    // if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)){
+    //     moveZ -= 1f;
+    //     run.Play("Run");
+    // }
 
-    if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)){
-        moveX -= 1f;
-        run.Play("Run");
-    }
+    // if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)){
+    //     moveX -= 1f;
+    //     run.Play("Run");
+    // }
 
-    if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)){
-        moveX += 1f;
-        run.Play("Run");
-    }
+    // if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)){
+    //     moveX += 1f;
+    //     run.Play("Run");
+    // }
 
         transform.Translate(new Vector3(moveX, 0f, moveZ) * 0.1f);
         
