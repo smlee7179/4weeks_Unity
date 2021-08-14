@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Wall
   - skill_T
+  - monster
   layers:
   - Default
   - TransparentFX
